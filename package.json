@@ -1,0 +1,22 @@
+{
+  "name": "cardbloom",
+  "version": "1.0.0",
+  "description": "Aplicación web que permite a los usuarios crear su tarjeta profesional digital personalizada",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Jeimy Mateus Ariza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
